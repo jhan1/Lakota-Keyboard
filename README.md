@@ -5,6 +5,4 @@ Linux (lkt-keyboard-Linux)
 
 Windows and macOS (lkt-keyboard-windows)
 
-Web (lkt-keyboard-windows)
-
-touchscreen tablet/phone (lkt-keyboard-touch)
+iPhone/iPad/web (lkt-keyboard-touch)
