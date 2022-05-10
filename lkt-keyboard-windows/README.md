@@ -15,10 +15,8 @@ Links
 
 Supported Platforms
 -------------------
- * Windows
- * macOS
- * Linux
- * Web
- * iPhone
- * iPad
+ * Windows (lkt-keyboard-windows)
+ * macOS (lkt-keyboard-windows)
+ * Linux (lkt-keyboard-Linux)
+ * Web (lkt-keyboard-windows)
 
