@@ -1,0 +1,131 @@
+c Simplified Lakota Keyboard for Keyman 10.0
+c lakota generated from template at 2022-05-08 21:18:37
+c with name "Lakota"
+c
+c This keyboard program uses a simplified set of keys
+c for typing Lakota
+c
+c NOTE: this keyboard was created from the Keyman keyboard
+c program 
+
+store(&Version) '14.0'
+store(&NAME) 'Lakota'
+store(&COPYRIGHT) '©'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'windows macosx linux web iphone ipad'
+store(&VISUALKEYBOARD) 'lakota.kvks'
+store(&LAYOUTFILE) 'lakota.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c row 1
++ "`" > "~"
++ "1" > "!"
++ "2" > "?"
++ "3" > "/"
++ "4" > "á"
++ "5" > "é"
++ "6" > "í"
++ "7" > "ó"
++ "8" > "ú"
++ "9" > "("
++ "0" > ")"
++ "-" > "-"
++ "=" > "="
+
+c row 1 + shift key
++ "~" > "~"
++ "!" > "%"
++ "@" > "@"
++ "#" > "#"
++ "$" > "À"
++ "%" > "È"
++ "^" > "Ì"
++ "&" > "Ò"
++ "*" > "Ù"
++ "(" > "^"
++ ")" > "*"
++ "_" > "_"
++ "+" > "+"
+
+c row 2
++ "q" > "ǧ"
++ "w" > "w"
++ "e" > "e"
++ "r" > "š "
++ "t" > "t"
++ "y" > "y"
++ "u" > "u"
++ "i" > "i"
++ "o" > "o"
++ "p" > "p"
++ "[" > "["
++ "]" > "]"
++ "\" > "\"
+
+c row 2 + shift key
++ "Q" > "Ǧ"
++ "W" > "W"
++ "E" > "E"
++ "R" > "Š "
++ "T" > "T"
++ "Y" > "Y"
++ "U" > "U"
++ "I" > "I"
++ "O" > "O"
++ "P" > "P"
++ "{" > "{"
++ "}" > "}"
++ "|" > "|"
+
+c row 3
++ "a" > "a"
++ "s" > "s"
++ "d" > "d"
++ "f" > "ŋ"
++ "g" > "g"
++ "h" > "h"
++ "j" > "ȟ"
++ "k" > "k"
++ "l" > "l"
++ ";" > ";"
++ "'" > "'"
+
+c row 3 + shift key
++ "A" > "A"
++ "S" > "S"
++ "D" > "D"
++ "F" > "Ŋ"
++ "G" > "G"
++ "H" > "H"
++ "J" > "Ȟ"
++ "K" > "K"
++ "L" > "L"
++ ":" > ":"
+c + """ > """
+
+c row 4
++ "z" > "z"
++ "x" > "ž"
++ "c" > "č"
++ "v" > "v"
++ "b" > "b"
++ "n" > "n"
++ "m" > "m"
++ "," > ","
++ "." > "."
+
+c row 4 + shift key
++ "Z" > "Z"
++ "X" > "Ž"
++ "C" > "Č"
++ "V" > "V"
++ "B" > "B"
++ "N" > "N"
++ "M" > "M"
++ "<" > "<"
++ ">" > ">"
+
+c end of keyboard
